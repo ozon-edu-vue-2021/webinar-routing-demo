@@ -1,5 +1,13 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Страница "О нас"</h1>
+    <p>Именованный роутинг:</p>
+    <p>:to="{ name: 'about' }"</p>
   </div>
 </template>
+
+<script>
+export default {
+  name: "About",
+};
+</script>
